@@ -4,6 +4,6 @@ app.directive('ervaring', function() {
     scope: { 
       info: '=' 
     }, 
-    templateUrl: 'ervaring.html' 
+    templateUrl: 'templates/ervaring.html' 
   }; 
 });
