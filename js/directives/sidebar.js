@@ -1,4 +1,4 @@
-app.directive('sidebar', function() { 
+app.directive('sidebarApp', function() { 
   return { 
     restrict: 'E', 
     scope: { 
