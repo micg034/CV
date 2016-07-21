@@ -1,4 +1,4 @@
-app.directive('ervaring', function() { 
+app.directive('ervaringApp', function() { 
   return { 
     restrict: 'E', 
     scope: { 
