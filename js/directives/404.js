@@ -4,6 +4,6 @@ app.directive('404', function() {
     scope: { 
       info: '=' 
     }, 
-    templateUrl: '404.html' 
+    templateUrl: 'templates/404.html' 
   }; 
 });
