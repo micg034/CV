@@ -4,6 +4,6 @@ app.directive('sidebar', function() {
     scope: { 
       info: '=' 
     }, 
-    templateUrl: 'sidebar.html' 
+    templateUrl: 'templates/sidebar.html' 
   }; 
 });
