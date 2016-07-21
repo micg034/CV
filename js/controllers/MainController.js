@@ -10,25 +10,88 @@ app.controller('MainController', ['$scope', function($scope) {
 	    email: 'mijn@mail.com',
 	    phone: '0612345678'  
 	    };
-	 $scope.ervaring = [
+	    
+	 $scope.opleidingen = [
 	   {
-  	    name: 'Vrije Universiteit Amsterdam',
+  	    name: 'Vrije Universiteit',
+  	    location: 'Amsterdam',
   	    course: 'Lifestyle Informatics',
   	    date: '2015 - heden',
   	    diploma: 'Nee',
 	    },
 	    {
-  	    name: 'Vrije Universiteit Amsterdam',
+  	    name: 'Vrije Universiteit',
+  	    location: 'Amsterdam'
   	    course: 'Gezondheid en Leven',
   	    date: '2014 - 2015',
   	    diploma: 'Nee',
 	    },
 	    {
-	      name: 'Bertrand Russell College',
-	      course: 'VWO Natuur en Gezondheid',
+	    name: 'Bertrand Russell College',
+	    course: 'VWO Natuur en Gezondheid',
   	    date: '109342 - 12356',
   	    diploma: 'Ja',
 	    }
 	   ];
+	   
+	 $scope.cursussen = [
+	 	{
+	 	name: 'Chinese School Fa Yin',
+	 	date: '2013 - 2015'
+	 	location: 'Amsterdam',
+	 	course: 'Cantonees en Mandarijn',
+	 	level: 'Groep 8 t/m middelbare school 1e klas',
+	 	diploma: 'Ja',	
+	 	},
+	 	{
+	 	name: 'FluXus',
+	 	date: '2012 - 2013'
+	 	location: 'Zaandam',
+	 	course: 'Muziekexamen'
+	 	level: 'Niveau A voor piano (met theorie niveau B)',
+	 	diploma: 'Ja',
+	 	},
+	 	{
+	 	name: 'Chinese School Kai Wah',
+	 	date: '2009 - 2011',
+	 	course: 'Mandarijn',
+	 	level: 'Beginner'
+	 	diploma: 'Nee'
+	 	},
+	 	{
+	 	name: 'Chinese School Fa Yin',
+	 	date: '2000 - 2008',
+	 	course: 'Cantonees en Mandarijn',
+	 	level: 'Kleuterklas t/m groep 7',
+	 	diploma: 'Nee',
+	 	},
+	 	];
+	 	
+	 $scope.ervaring = [
+	 	{
+	 	functie: 'Flexkracht via Uitzendbureau BQ',
+	 	date: 'Sep 2015 - heden',
+	 	location: 'Horeca: Amsterdam RAI Convention Centre. Promotiewerk: verschillend',
+	 	taken: 'Horecamedewerkster: bedienen, foodlopen, debrasseren, achter de bar staan, schoonmaken, op- en afbouwen. Promotiewerker: flyeren.',
+	 	},
+	 	{
+	 	functie: 'Horecamedewerkster',
+	 	date: 'Feb 2014 - Mrt 2015',
+	 	location: 'Snackbar Bengs Snacks in Krommenie',
+	 	taken: 'bestellingen opnemen, bedienen, milkshakes maken, schoonmaken',
+	 	},
+	 	{
+	 	functie: 'Vrijwilligster',
+	 	date: 'Okt 2011 - Dec 2011',
+	 	location: 'Molenmuseum in Koog aan de Zaan',
+	 	taken: 'gasten verwelkomen, koffie zetten en verkopen, kaartjes controleren, folders bijvullen', 
+	 	},
+	 	{
+	 	functie: 'Vrijwilligster',
+	 	date: 'Okt 2011 - Nov 2011',
+	 	location: 'SCWO in Wormer',
+	 	taken: 'voorbereidingswerk, kinderen begeleiden, opruimen',
+	 	},
+	 	];
 	 
 }]);
