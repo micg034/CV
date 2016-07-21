@@ -4,6 +4,6 @@ app.directive('contact', function() {
     scope: { 
       info: '=' 
     }, 
-    templateUrl: 'contact.html' 
+    templateUrl: 'templates/contact.html' 
   }; 
 });
