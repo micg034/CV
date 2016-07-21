@@ -1,7 +1,7 @@
 app.controller('MainController', ['$scope', function($scope) {
   $scope.title = 'Persoonlijke Gegevens';
   $scope.gegevens = {
-      icon: 'profile.jpg', 
+      	icon: 'img/profile.jpg', 
 	    title: 'Persoonlijke Gegevens',
 	    name: 'Naam', 
 	    dateofbirth: new Date('1995', '09', '03'),
