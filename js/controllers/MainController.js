@@ -1,5 +1,5 @@
 app.controller('MainController', ['$scope', function($scope) {
-  $scope.title = 'Persoonlijke Gegevens';
+  $scope.title = 'Curriculum Vitae';
   $scope.gegevens = {
       	icon: 'img/profile.jpg', 
 	    title: 'Persoonlijke Gegevens',
@@ -8,7 +8,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	    nationality: 'NL',
 	    adress: 'prive',
 	    email: 'mijn@mail.com',
-	    phone: '0612345678'  
+	    phone: '0612345678',
 	    };
 	    
 	 $scope.educations = [
@@ -21,7 +21,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	    },
 	    {
   	    name: 'Vrije Universiteit',
-  	    location: 'Amsterdam'
+  	    location: 'Amsterdam',
   	    course: 'Gezondheid en Leven',
   	    date: '2014 - 2015',
   	    diploma: 'Nee',
@@ -37,7 +37,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	 $scope.courses = [
 	 	{
 	 	name: 'Chinese School Fa Yin',
-	 	date: '2013 - 2015'
+	 	date: '2013 - 2015',
 	 	location: 'Amsterdam',
 	 	course: 'Cantonees en Mandarijn',
 	 	level: 'Groep 8 t/m middelbare school 1e klas',
@@ -45,7 +45,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	 	},
 	 	{
 	 	name: 'FluXus',
-	 	date: '2012 - 2013'
+	 	date: '2012 - 2013',
 	 	location: 'Zaandam',
 	 	course: 'Muziekexamen'
 	 	level: 'Niveau A voor piano (met theorie niveau B)',
@@ -55,8 +55,8 @@ app.controller('MainController', ['$scope', function($scope) {
 	 	name: 'Chinese School Kai Wah',
 	 	date: '2009 - 2011',
 	 	course: 'Mandarijn',
-	 	level: 'Beginner'
-	 	diploma: 'Nee'
+	 	level: 'Beginner',
+	 	diploma: 'Nee',
 	 	},
 	 	{
 	 	name: 'Chinese School Fa Yin',
@@ -64,7 +64,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	 	course: 'Cantonees en Mandarijn',
 	 	level: 'Kleuterklas t/m groep 7',
 	 	diploma: 'Nee',
-	 	},
+	 	}
 	 	];
 	 	
 	 $scope.experiences = [
@@ -91,7 +91,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	 	date: 'Okt 2011 - Nov 2011',
 	 	location: 'SCWO in Wormer',
 	 	taken: 'Voorbereidingswerk, kinderen begeleiden, opruimen',
-	 	},
+	 	}
 	 	];
 	 
 }]);
