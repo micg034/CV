@@ -1,4 +1,4 @@
-app.directive('about', function() { 
+app.directive('aboutApp', function() { 
   return { 
     restrict: 'E', 
     scope: { 
