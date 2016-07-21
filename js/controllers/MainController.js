@@ -11,7 +11,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	    phone: '0612345678'  
 	    };
 	    
-	 $scope.opleidingen = [
+	 $scope.educations = [
 	   {
   	    name: 'Vrije Universiteit',
   	    location: 'Amsterdam',
@@ -34,7 +34,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	    }
 	   ];
 	   
-	 $scope.cursussen = [
+	 $scope.courses = [
 	 	{
 	 	name: 'Chinese School Fa Yin',
 	 	date: '2013 - 2015'
@@ -67,7 +67,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	 	},
 	 	];
 	 	
-	 $scope.ervaring = [
+	 $scope.experiences = [
 	 	{
 	 	functie: 'Flexkracht via Uitzendbureau BQ',
 	 	date: 'Sep 2015 - heden',
