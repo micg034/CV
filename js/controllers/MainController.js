@@ -47,7 +47,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	 	name: 'FluXus',
 	 	date: '2012 - 2013',
 	 	location: 'Zaandam',
-	 	course: 'Muziekexamen'
+	 	course: 'Muziekexamen',
 	 	level: 'Niveau A voor piano (met theorie niveau B)',
 	 	diploma: 'Ja',
 	 	},
