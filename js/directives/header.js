@@ -1,4 +1,4 @@
-app.directive('header', function() { 
+app.directive('headerApp', function() { 
   return { 
     restrict: 'E', 
     scope: { 
