@@ -78,19 +78,19 @@ app.controller('MainController', ['$scope', function($scope) {
 	 	functie: 'Horecamedewerkster',
 	 	date: 'Feb 2014 - Mrt 2015',
 	 	location: 'Snackbar Bengs Snacks in Krommenie',
-	 	taken: 'bestellingen opnemen, bedienen, milkshakes maken, schoonmaken',
+	 	taken: 'Bestellingen opnemen, bedienen, milkshakes maken, schoonmaken',
 	 	},
 	 	{
 	 	functie: 'Vrijwilligster',
 	 	date: 'Okt 2011 - Dec 2011',
 	 	location: 'Molenmuseum in Koog aan de Zaan',
-	 	taken: 'gasten verwelkomen, koffie zetten en verkopen, kaartjes controleren, folders bijvullen', 
+	 	taken: 'Gasten verwelkomen, koffie zetten en verkopen, kaartjes controleren, folders bijvullen', 
 	 	},
 	 	{
 	 	functie: 'Vrijwilligster',
 	 	date: 'Okt 2011 - Nov 2011',
 	 	location: 'SCWO in Wormer',
-	 	taken: 'voorbereidingswerk, kinderen begeleiden, opruimen',
+	 	taken: 'Voorbereidingswerk, kinderen begeleiden, opruimen',
 	 	},
 	 	];
 	 
