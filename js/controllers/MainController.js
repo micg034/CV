@@ -29,7 +29,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	    {
 	    name: 'Bertrand Russell College',
 	    course: 'VWO Natuur en Gezondheid',
-  	    date: '109342 - 12356',
+  	    date: '2008 - 2014',
   	    diploma: 'Ja',
 	    }
 	   ];
