@@ -5,7 +5,7 @@
       <img src="{{ gegeven.icon }}" alt="Profielfoto">
     </div>
     <h3 class="profile-title">{{ title }}</h3>
-      <p class="profile-description">{{ gegeven.name }}</p>
+      <p class="profile-description">{{ gegevens.name }}</p>
   </div> <!-- top-section -->
   <div class="main-navigation">
     <ul class="navigation">
@@ -31,12 +31,12 @@
 <div class="banner-bg" id="top">
   <div class="banner-overlay"></div>
     <div class="welcome-text">
-      <h2>{{ title }} | {{ gegeven.title }}</h2>
-          <h5>{{ gegeven.name }} </h5>
-          <p>{{ gegeven.dateofbirth | date }}</p>
-          <p>{{ gegeven.nationality }}</p>
-          <p>{{ gegeven.adress }}</p>
-          <p>{{ gegeven.email }}</p>
-          <p>{{ gegeven.phone }}</p>
+      <h2>{{ title }} | {{ gegevens.title }}</h2>
+          <h5>{{ gegevens.name }} </h5>
+          <p>{{ gegevens.dateofbirth | date }}</p>
+          <p>{{ gegevens.nationality }}</p>
+          <p>{{ gegevens.adress }}</p>
+          <p>{{ gegevens.email }}</p>
+          <p>{{ gegevens.phone }}</p>
     </div>
 </div>
