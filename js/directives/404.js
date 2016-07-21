@@ -1,4 +1,4 @@
-app.directive('404', function() { 
+app.directive('404App', function() { 
   return { 
     restrict: 'E', 
     scope: { 
