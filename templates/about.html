@@ -2,17 +2,24 @@
 <div class="page-section" id="about">
   <div class="row">
     <div class="col-md-12">
-      <h4 class="widget-title">Learn About Me</h4>
-        <div class="about-image">
-          <img src="img/8.jpg" alt="about me">
-        </div>
+      <h4 class="widget-title">Over mij</h4>
         <h2 class="about">{{ gegevens.title }}</h2>
-          <p class="name">Naam: {{ gegevens.name | uppercase }}</p>
-          <p class="dateofbirth">Geboortedatum: {{ gegevens.dateofbirth | date }}</p>
-          <p class="nationality">Nationaliteit: {{ gegevens.nationality }}</p>
-          <p class="adress">Adres: {{ gegevens.adress }}</p>
-          <p class="email">E-mail: {{ gegevens.email }}></p>
-          <p class="phone">Telefoon: {{ gegevens.phone }}</p>
+          <div class="education" ng-repeat="education in educations">
+            <p class="edu-name">{{ education.name }}</p>
+            <p class="edu-location">{{ education.location }}</p>
+            <p class="edu-course">{{ education.course }}</p>
+            <p class="edu-date">{{ education.date }}</p>
+            <p class="edu-diploma">{{ education.diploma }}</p>
+          </div>
+          
+          <div class="courses" ng-repeat="course in courses">
+            <p "course-name">{{ course.name }}</p>
+            <p>{{ course.location }}</p>
+            <p>{{ course.date }}</p>
+            <p>{{ course.course }}</p>
+            <p>{{ course.level }}</p>
+            <p>{{ course.diploma }}</p>
+          </div>
         <hr>
     </div>
   </div> <!-- #about -->
