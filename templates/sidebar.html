@@ -2,17 +2,17 @@
 <div class="sidebar-menu hidden-xs hidden-sm">
   <div class="top-section">
     <div class="profile-image">
-      <img src="img/profile.jpg" alt="Volton">
+      <img src="{{ gegevens.icon }}" alt="Profielfoto">
     </div>
-    <h3 class="profile-title">Volton</h3>
-      <p class="profile-description">Digital Photography</p>
+    <h3 class="profile-title">{{ title }}</h3>
+      <p class="profile-description">{{ gegevens.name }}</p>
   </div> <!-- top-section -->
   <div class="main-navigation">
     <ul class="navigation">
-      <li><a href="#top"><i class="fa fa-globe"></i>Welcome</a></li>
-      <li><a href="#about"><i class="fa fa-pencil"></i>About Me</a></li>
-      <li><a href="#projects"><i class="fa fa-paperclip"></i>My Gallery</a></li>
-      <li><a href="#contact"><i class="fa fa-link"></i>Contact Me</a></li>
+      <li><a href="#top"><i class="fa fa-globe"></i>Home</a></li>
+      <li><a href="#about"><i class="fa fa-pencil"></i>Over mij</a></li>
+      <li><a href="#projects"><i class="fa fa-paperclip"></i>Werkervaring</a></li>
+      <li><a href="#contact"><i class="fa fa-link"></i>Contact</a></li>
     </ul>
   </div> <!-- .main-navigation -->
   <div class="social-icons">
@@ -31,7 +31,12 @@
 <div class="banner-bg" id="top">
   <div class="banner-overlay"></div>
     <div class="welcome-text">
-      <h2>Simple Design | Personal Portfolio</h2>
-          <h5>This is a mobile friendly layout with Bootstrap v3.3.1 framework. Maecenas eu ante at nunc posuere fringilla sit amet non dolor. Proin condimentum fermentum nunc.</h5>
+      <h2>{{ title }} | {{ gegevens.title }}</h2>
+          <h5>{{ gegevens.name }} </h5>
+          <p>{{ gegevens.dateofbirth | date }}</p>
+          <p>{{ gegevens.nationality }}</p>
+          <p>{{ gegevens.adress }}</p>
+          <p>{{ gegevens.email }}</p>
+          <p>{{ gegevens.phone }}</p>
     </div>
 </div>
