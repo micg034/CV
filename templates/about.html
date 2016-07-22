@@ -2,7 +2,7 @@
 <div class="page-section" id="about" ng-controller="MainController">
   <div class="row">
     <div class="col-md-12">
-      <h4 class="widget-title">Over mij {{ title }}</h4>
+      <h4 class="widget-title">Over mij</h4>
         <h2 class="about">{{ gegevens.title }}</h2>
           <div class="education" ng-repeat="education in educations">
             <p class="edu-name">{{ education.name }}</p>
@@ -11,7 +11,7 @@
             <p class="edu-date">{{ education.date }}</p>
             <p class="edu-diploma">{{ education.diploma }}</p>
           </div>
-          
+          <br>
           <div class="courses" ng-repeat="course in courses">
             <p class="course-name">{{ course.name }}</p>
             <p>{{ course.location }}</p>
@@ -20,7 +20,7 @@
             <p>{{ course.level }}</p>
             <p>{{ course.diploma }}</p>
           </div>
-          
+          <br>
           <div class="skills" ng-repeat="skill in skills">
             <p class="skill-name">{{ skill.name }}</p>
             <p>{{ skill.cat1 }}</p>
@@ -29,7 +29,7 @@
             <p>{{ skill.cat4 }}</p>
             <p>{{ skill.cat5 }}</p>
           </div>
-          
+          <br>
           <div class="interests">
             <p class="interest-name">{{ interest.name }}</p>
             <p>{{ interest.dog }}</p>
