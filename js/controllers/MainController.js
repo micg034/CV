@@ -93,5 +93,31 @@ app.controller('MainController', ['$scope', function($scope) {
 	 	taken: 'Voorbereidingswerk, kinderen begeleiden, opruimen',
 	 	}
 	 	];
-	 
+	 	
+	 $scope.skills = [
+	 	{
+	 	name: 'Taalvaardigheid',
+	 	cat1: 'Nederlands: vloeiend in spreken, lezen en schrijven.',
+	 	cat2: 'Engels: goed in spreken, lezen en schrijven.',
+	 	cat3: 'Cantonees: goed in spreken, redelijk in lezen en schrijven.',
+	 	cat4: 'Mandarijn: redelijk in spreken, lezen en schrijven.',
+	 	cat5: 'Frans en Duits: basis in spreken, lezen en schrijven.',
+	 	},
+	 	{
+	 	name: 'ICT vaardigheden',
+	 	cat1: 'Microsoft Office (Word, Excel, Powerpoint): Goed.',
+	 	cat2: 'SPSS: redelijk.',
+	 	cat3: 'HTML/CSS: redelijk.',
+	 	cat4: 'Python: basis.',
+	 	cat5: 'Matlab: basis.',
+	 	},
+	 	{
+	 	name: 'Rijbewijs',
+	 	cat1: 'AM + B (sinds 2015)',
+	 	}
+	 	];
+	 $scope.interests = {
+	 	name: 'Hobbies en Interesses',
+	 	dog: 'Lezen, reizen, piano, badminton.',
+	 }
 }]);
