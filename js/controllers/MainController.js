@@ -12,7 +12,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	    };
 	    
 	 $scope.educations = [
-	   {
+	    {
   	    name: 'Vrije Universiteit',
   	    location: 'Amsterdam',
   	    course: 'Lifestyle Informatics',
@@ -109,7 +109,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	 	cat2: 'SPSS: redelijk.',
 	 	cat3: 'HTML/CSS: redelijk.',
 	 	cat4: 'Python: basis.',
-	 	cat5: 'Matlab: basis.',
+	 	cat5: 'Matlab: basias.',
 	 	},
 	 	{
 	 	name: 'Rijbewijs',
@@ -119,5 +119,5 @@ app.controller('MainController', ['$scope', function($scope) {
 	 $scope.interests = {
 	 	name: 'Hobbies en Interesses',
 	 	dog: 'Lezen, reizen, piano, badminton.',
-	 }
+	 };
 }]);
