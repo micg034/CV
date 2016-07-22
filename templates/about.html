@@ -20,6 +20,20 @@
             <p>{{ course.level }}</p>
             <p>{{ course.diploma }}</p>
           </div>
+          
+          <div class="skills" ng-repeat="skill in skills">
+            <p class="skill-name">{{ skill.name }}</p>
+            <p>{{ skill.cat1 }}</p>
+            <p>{{ skill.cat2 }}</p>
+            <p>{{ skill.cat3 }}</p>
+            <p>{{ skill.cat4 }}</p>
+            <p>{{ skill.cat5 }}</p>
+          </div>
+          
+          <div class="interests">
+            <p class="interest-name">{{ interest.name }}</p>
+            <p>{{ interest.dog }}</p>
+          </div>
         <hr>
     </div>
   </div> <!-- #about -->
