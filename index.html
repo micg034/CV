@@ -48,10 +48,12 @@
             <div class="main-content" >
                 <div class="fluid-container">
                     <div class="content-wrapper">
-                        <about-app></about-app>
-                        <ervaring-app></ervaring-app>
-                        <contact-app></contact-app>
-                        <footer-app></footer-app>
+                        <div ng-view>
+                            <about-app></about-app>
+                            <ervaring-app></ervaring-app>
+                            <contact-app></contact-app>
+                            <footer-app></footer-app>
+                        </div>
                     </div>  
                 </div>
             </div>
