@@ -15,7 +15,7 @@
             <br>
             <div class="column2" ng-repeat="course in courses">
               <h1 class="kopje">{{ course.title }}</h1>  
-                <h2 class="naam">{{ course.name }}</h2> <p>| {{ course.location }}</p>
+                <h2 class="naam">{{ course.name }}</h2> <p class="plek">| {{ course.location }}</p>
                 <p>{{ course.date }}</p>
                 <p>{{ course.course }}</p>
                 <p>{{ course.level }}</p>
@@ -27,11 +27,11 @@
               <div ng-repeat="skill in skills">
                 <h1 class="kopje">{{ skill.title }}</h1>
                   <h2 class="naam">{{ skill.name }}</h2>
-                  <p class="cat">{{ skill.cat1 }}</p> <p>: {{ skill.lvl1 }}</p>
-                  <p class="cat">{{ skill.cat2 }}</p> <p>: {{ skill.lvl2 }}</p>
-                  <p class="cat">{{ skill.cat3 }}</p> <p>: {{ skill.lvl3 }}</p>
-                  <p class="cat">{{ skill.cat4 }}</p> <p>: {{ skill.lvl4 }}</p>
-                  <p class="cat">{{ skill.cat5 }}</p> <p>: {{ skill.lvl5 }}</p>
+                  <p class="cat">{{ skill.cat1 }}</p> <p class="lvl">: {{ skill.lvl1 }}</p>
+                  <p class="cat">{{ skill.cat2 }}</p> <p class="lvl">: {{ skill.lvl2 }}</p>
+                  <p class="cat">{{ skill.cat3 }}</p> <p class="lvl">: {{ skill.lvl3 }}</p>
+                  <p class="cat">{{ skill.cat4 }}</p> <p class="lvl">: {{ skill.lvl4 }}</p>
+                  <p class="cat">{{ skill.cat5 }}</p> <p class="lvl">: {{ skill.lvl5 }}</p>
                   <br>
               </div>
               <br>
