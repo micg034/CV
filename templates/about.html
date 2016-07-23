@@ -38,8 +38,10 @@
                   <br>
               </div>
               <br>
-              <h1 class="kopje">{{ interest.title }}</h1>
-              <p>{{ interest.dog }}</p>
+              <div ng-repeat="interest in interests">
+                <h1 class="kopje">{{ interest.title }}</h1>
+                <p>{{ interest.dog }}</p>
+              </div>
             </div>
           </div>
         <hr>
