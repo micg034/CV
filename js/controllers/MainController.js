@@ -31,6 +31,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	    },
 	    {
 	    name: 'Bertrand Russell College',
+	    location: 'Krommenie',
 	    course: 'VWO Natuur en Gezondheid',
   	    date: '2008 - 2014',
   	    diploma: 'Ja',
