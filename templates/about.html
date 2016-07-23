@@ -7,21 +7,21 @@
             <div class="column1" ng-repeat="education in educations">
               <h1 class="kopje">{{ education.title }}</h1>
               <h2 class="naam">{{ education.name }}</h2> 
-              <p>{{ education.location }}</p>
-              <p>{{ education.course }}</p>
-              <p>{{ education.date }}</p>
-              <p>{{ education.diploma }}</p>
+              <p>te {{ education.location }}</p>
+              <p>Cursus: {{ education.course }}</p>
+              <p>Periode: {{ education.date }}</p>
+              <p>Diploma: {{ education.diploma }}</p>
               <br>
             </div>
             <br>
               <div class="column2" ng-repeat="course in courses">
                 <h1 class="kopje">{{ course.title }}</h1>
                 <h2 class="naam">{{ course.name }}</h2> 
-                <p>{{ course.location }}</p>
-                <p>{{ course.date }}</p>
-                <p>{{ course.course }}</p>
-                <p>{{ course.level }}</p>
-                <p>{{ course.diploma }}</p>
+                <p>te {{ course.location }}</p>
+                <p>Periode: {{ course.date }}</p>
+                <p>Cursus: {{ course.course }}</p>
+                <p>Niveau: {{ course.level }}</p>
+                <p>Diploma: {{ course.diploma }}</p>
                 <br>
               </div>
             <br>
@@ -37,6 +37,8 @@
                   <br>
                 </div>
               <br>
+            </div>
+            <div class="column3">
               <h1 class="kopje">{{ interest.title }}</h1>
               <p>{{ interest.dog }}</p>
             </div>
