@@ -3,7 +3,9 @@
   <div class="sidebar-menu hidden-xs hidden-sm">
     <div class="top-section">
       <div class="profile-image">
-        <img src="{{ gegevens.icon }}" alt="Profielfoto">
+        <a href="#top">
+          <img src="{{ gegevens.icon }}" alt="Profielfoto">
+        </a>
       </div>
       <h3 class="profile-title">{{ title }}</h3>
         <p class="profile-description">{{ gegevens.name }}</p>
@@ -28,16 +30,5 @@
     </div> <!-- .social-icons -->
   </div> <!-- .sidebar-menu -->
           
-  
-  <div class="banner-bg" id="top">
-    <div class="banner-overlay"></div>
-      <div class="welcome-text">
-        <h2>{{ gegevens.name }} | {{ gegevens.title }}</h2>
-            <h5>Geboortedatum: {{ gegevens.dateofbirth | date }}</h5>
-            <h5>Nationaliteit: {{ gegevens.nationality }}</h5>
-            <h5>Adres: {{ gegevens.adress }}</h5>
-            <h5>E-mail: {{ gegevens.email }}</h5>
-            <h5>Telefoon: {{ gegevens.phone }}</h5>
-      </div>
-  </div>
+
 </div>
