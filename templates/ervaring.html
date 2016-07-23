@@ -1,14 +1,16 @@
 <!-- ERVARINGEN -->
-<div class="page-section" id="projects" ng-controller="MainController">
-  <div class="row">
-    <div class="col-md-12">
-      <h4 class="widget-title">Werkervaring</h4>
-        <div ng-repeat experience in experiences>
-         <p>{{ experience.functie }}</p>
-         <p>{{ experience.date }}</p>
-         <p>{{ experience.locatie }}</p>
-         <p>{{ experience.taken }}</p>
-        </div>
+<div ng-controller="MainController">
+  <div class="page-section" id="projects">
+    <div class="row">
+      <div class="col-md-12">
+        <h4 class="widget-title">Werkervaring</h4>
+          <div ng-repeat experience in experiences>
+           <p>{{ experience.functie }}</p>
+           <p>{{ experience.date }}</p>
+           <p>{{ experience.locatie }}</p>
+           <p>{{ experience.taken }}</p>
+          </div>
+      </div>
     </div>
   </div>
 </div> <!-- .projects-holder -->
