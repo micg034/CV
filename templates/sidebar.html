@@ -31,4 +31,16 @@
   </div> <!-- .sidebar-menu -->
           
 
+  <div class="banner-bg" id="top">
+      <div class="banner-overlay"></div>
+          <div class="welcome-text">
+              <h2>{{ gegevens.name }} | {{ gegevens.title }}</h2>
+                  <h5>Geboortedatum: {{ gegevens.dateofbirth | date }}</h5>
+                  <h5>Nationaliteit: {{ gegevens.nationality }}</h5>
+                  <h5>Adres: {{ gegevens.adress }}</h5>
+                  <h5>E-mail: {{ gegevens.email }}</h5>
+                  <h5>Telefoon: {{ gegevens.phone }}</h5>
+          </div>
+      </div>
+  </div>
 </div>
