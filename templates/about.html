@@ -5,7 +5,7 @@
       <h4 class="widget-title">Over mij</h4>
         <div id="contentbox">
             <div class="column1" ng-repeat="education in educations" ng-if="$index > 0">
-              <h1 class="kopje">{{ education.title }}</h1>
+              <h1 class="kopje"><strong>Opleidingen</strong></h1>
               <p class="naam">{{ education.name }}</p> 
               <p>te {{ education.location }}</p>
               <p><strong>Cursus:</strong> {{ education.course }}</p>
@@ -16,19 +16,19 @@
             <br>
             
             <div class="column2" ng-repeat="course in courses" ng-if="$index > 0">
-              <h1 class="kopje">{{ course.title }}</h1>
-                <p class="naam">{{ course.name }}</p> 
+              <h1 class="kopje">Cursussen</h1>
+                <p class="naam"><strong>{{ course.name }}</strong></p> 
                 <p>te {{ course.location }}</p>
-                <p>Periode: {{ course.date }}</p>
-                <p>Cursus: {{ course.course }}</p>
-                <p>Niveau: {{ course.level }}</p>
-                <p>Diploma: {{ course.diploma }}</p>
+                <p><strong>Periode:</strong> {{ course.date }}</p>
+                <p><strong>Cursus:</strong> {{ course.course }}</p>
+                <p><strong>Niveau:</strong> {{ course.level }}</p>
+                <p><strong>Diploma:</strong> {{ course.diploma }}</p>
                 <br>
             </div>
             <br>
             <div class="column3"> 
               <div ng-repeat="skill in skills" ng-if="$index > 0">
-                  <h1 class="kopje">{{ skill.title }}</h1>
+                  <h1 class="kopje">Vaardigheden</h1>
                   <h2 class="naam">{{ skill.name }}</h2>
                   <p><strong>{{ skill.cat1 }}</strong>: {{ skill.lvl1 }}</p>
                   <p><strong>{{ skill.cat2 }}</strong>: {{ skill.lvl2 }}</p>
@@ -39,7 +39,7 @@
               </div>
               <br>
               <div ng-repeat="interest in interests">
-                <h1 class="kopje">{{ interest.title }}</h1>
+                <h1 class="kopje">Hobbies en Interesses</h1>
                 <p>{{ interest.dog }}</p>
               </div>
             </div>
