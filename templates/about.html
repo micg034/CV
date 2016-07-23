@@ -4,8 +4,8 @@
     <div class="col-md-12">
       <h4 class="widget-title">Over mij</h4>
         <div id="contentbox">
+            <h1 class="kopje"><strong>Opleidingen</strong></h1>
             <div class="column1" ng-repeat="education in educations" ng-if="$index > 0">
-              <h1 class="kopje"><strong>Opleidingen</strong></h1>
               <p class="naam">{{ education.name }}</p> 
               <p>te {{ education.location }}</p>
               <p><strong>Cursus:</strong> {{ education.course }}</p>
@@ -14,9 +14,8 @@
               <br>
             </div>
             <br>
-            
-            <div class="column2" ng-repeat="course in courses" ng-if="$index > 0">
-              <h1 class="kopje">Cursussen</h1>
+            <h1 class="kopje">Cursussen</h1>
+              <div class="column2" ng-repeat="course in courses" ng-if="$index > 0">
                 <p class="naam"><strong>{{ course.name }}</strong></p> 
                 <p>te {{ course.location }}</p>
                 <p><strong>Periode:</strong> {{ course.date }}</p>
@@ -24,11 +23,11 @@
                 <p><strong>Niveau:</strong> {{ course.level }}</p>
                 <p><strong>Diploma:</strong> {{ course.diploma }}</p>
                 <br>
-            </div>
+              </div>
             <br>
             <div class="column3"> 
-              <div ng-repeat="skill in skills" ng-if="$index > 0">
-                  <h1 class="kopje">Vaardigheden</h1>
+              <h1 class="kopje">Vaardigheden</h1>
+                <div ng-repeat="skill in skills" ng-if="$index > 0">
                   <h2 class="naam">{{ skill.name }}</h2>
                   <p><strong>{{ skill.cat1 }}</strong>: {{ skill.lvl1 }}</p>
                   <p><strong>{{ skill.cat2 }}</strong>: {{ skill.lvl2 }}</p>
@@ -36,10 +35,10 @@
                   <p><strong>{{ skill.cat4 }}</strong>: {{ skill.lvl4 }}</p>
                   <p><strong>{{ skill.cat5 }}</strong>: {{ skill.lvl5 }}</p>
                   <br>
-              </div>
+                </div>
               <br>
+              <h1 class="kopje">Hobbies en Interesses</h1>
               <div ng-repeat="interest in interests">
-                <h1 class="kopje">Hobbies en Interesses</h1>
                 <p>{{ interest.dog }}</p>
               </div>
             </div>
