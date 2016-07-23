@@ -4,8 +4,8 @@
     <div class="col-md-12">
       <h4 class="widget-title">Over mij</h4>
         <div id="contentbox">
-          <h1 class="kopje">{{ education.title }}</h1>
             <div class="column1" ng-repeat="education in educations">
+              <h1 class="kopje">{{ education.title }}</h1>
               <h2 class="naam">{{ education.name }}</h2> <p>| {{ education.location }}</p>
               <p>{{ education.course }}</p>
               <p>{{ education.date }}</p>
@@ -13,8 +13,8 @@
               <br>
             </div>
             <br>
-            <h1 class="kopje">{{ course.title }}</h1>
               <div class="column2" ng-repeat="course in courses">
+                <h1 class="kopje">{{ course.title }}</h1>
                 <h2 class="naam">{{ course.name }}</h2> <p class="plek">| {{ course.location }}</p>
                 <p>{{ course.date }}</p>
                 <p>{{ course.course }}</p>
@@ -24,14 +24,13 @@
               </div>
             <br>
             <div class="column3"> 
-              <h1 class="kopje">{{ skill.title }}</h1>
                 <div ng-repeat="skill in skills">
+                  <h1 class="kopje">{{ skill.title }}</h1>
                   <h2 class="naam">{{ skill.name }}</h2>
-                  <p class="cat">{{ skill.cat1 }}</p> <p class="lvl">: {{ skill.lvl1 }}</p>
-                  <p class="cat">{{ skill.cat2 }}</p> <p class="lvl">: {{ skill.lvl2 }}</p>
-                  <p class="cat">{{ skill.cat3 }}</p> <p class="lvl">: {{ skill.lvl3 }}</p>
-                  <p class="cat">{{ skill.cat4 }}</p> <p class="lvl">: {{ skill.lvl4 }}</p>
-                  <p class="cat">{{ skill.cat5 }}</p> <p class="lvl">: {{ skill.lvl5 }}</p>
+                  <p><strong>{{ skill.cat1 }}</strong>: {{ skill.lvl1 }}</p>
+                  <p><strong>{{ skill.cat1 }}</strong>: {{ skill.lvl1 }}</p>
+                  <p><strong>{{ skill.cat1 }}</strong>: {{ skill.lvl1 }}</p>
+                  <p><strong>{{ skill.cat1 }}</strong>: {{ skill.lvl1 }}</p>
                   <br>
                 </div>
               <br>
