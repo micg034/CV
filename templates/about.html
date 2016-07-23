@@ -15,7 +15,6 @@
               <br>
             </div>
           </div>
-            <br>
           <div class="col-md-4 col-sm-6">
             <h1 class="kopje">Cursussen</h1>
               <div ng-repeat="course in courses" ng-if="$index > 0">
@@ -28,10 +27,9 @@
                 <br>
               </div>
             </div>
-            <br>
             <div class="col-md-4 col-sm-6"> 
               <h1 class="kopje">Vaardigheden</h1>
-                <div ng-repeat="skill in skills" ng-if="$index > 0">
+                <div ng-repeat="skill in skills" ng-if="$index > 0" ng-hide="skill.length">
                   <h2 class="naam">{{ skill.name }}</h2>
                   <p><strong>{{ skill.cat1 }}</strong>: {{ skill.lvl1 }}</p>
                   <p><strong>{{ skill.cat2 }}</strong>: {{ skill.lvl2 }}</p>
