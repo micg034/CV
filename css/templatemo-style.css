@@ -455,6 +455,28 @@ h3.profile-title {
   color: white;
 }
 
+.contentbox {
+	margin: 0px auto;
+	width: 70%;
+}
+
+.colunm1 {
+	float: left;
+	margin: 0;
+	width: 33%;
+}
+.column2 {
+	float: left;
+	margin: 0;
+	width: 33%;
+}
+.column3 {
+	float: left;
+	margin: 0;
+	width: 33%;
+}
+
+
 /*------ about us ------ */
 .about-image {
   overflow: hidden;
