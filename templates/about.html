@@ -6,7 +6,8 @@
         <div id="contentbox">
             <div class="column1" ng-repeat="education in educations">
               <h1 class="kopje">{{ education.title }}</h1>
-              <h2 class="naam">{{ education.name }}</h2> <p>| {{ education.location }}</p>
+              <h2 class="naam">{{ education.name }}</h2> 
+              <p>{{ education.location }}</p>
               <p>{{ education.course }}</p>
               <p>{{ education.date }}</p>
               <p>{{ education.diploma }}</p>
@@ -15,7 +16,8 @@
             <br>
               <div class="column2" ng-repeat="course in courses">
                 <h1 class="kopje">{{ course.title }}</h1>
-                <h2 class="naam">{{ course.name }}</h2> <p class="plek">| {{ course.location }}</p>
+                <h2 class="naam">{{ course.name }}</h2> 
+                <p>{{ course.location }}</p>
                 <p>{{ course.date }}</p>
                 <p>{{ course.course }}</p>
                 <p>{{ course.level }}</p>
@@ -28,9 +30,10 @@
                   <h1 class="kopje">{{ skill.title }}</h1>
                   <h2 class="naam">{{ skill.name }}</h2>
                   <p><strong>{{ skill.cat1 }}</strong>: {{ skill.lvl1 }}</p>
-                  <p><strong>{{ skill.cat1 }}</strong>: {{ skill.lvl1 }}</p>
-                  <p><strong>{{ skill.cat1 }}</strong>: {{ skill.lvl1 }}</p>
-                  <p><strong>{{ skill.cat1 }}</strong>: {{ skill.lvl1 }}</p>
+                  <p><strong>{{ skill.cat2 }}</strong>: {{ skill.lvl2 }}</p>
+                  <p><strong>{{ skill.cat3 }}</strong>: {{ skill.lvl3 }}</p>
+                  <p><strong>{{ skill.cat4 }}</strong>: {{ skill.lvl4 }}</p>
+                  <p><strong>{{ skill.cat5 }}</strong>: {{ skill.lvl5 }}</p>
                   <br>
                 </div>
               <br>
