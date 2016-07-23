@@ -4,10 +4,8 @@
     <div class="col-md-12">
       <h4 class="widget-title">Over mij</h4>
         <div id="contentbox">
-            <div class="column1" ng-repeat="education in educations">
+            <div class="column1" ng-repeat="education in educations" ng-if="$index > 0">
               <h1 class="kopje">{{ education.title }}</h1>
-            </div>
-            <div class="column1" ng-repeat="education in educations">
               <p class="naam">{{ education.name }}</p> 
               <p>te {{ education.location }}</p>
               <p>Cursus: {{ education.course }}</p>
@@ -17,7 +15,7 @@
             </div>
             <br>
             
-            <div class="column2" ng-repeat="course in courses">
+            <div class="column2" ng-repeat="course in courses" ng-if="$index > 0">
               <h1 class="kopje">{{ course.title }}</h1>
                 <p class="naam">{{ course.name }}</p> 
                 <p>te {{ course.location }}</p>
@@ -29,14 +27,14 @@
             </div>
             <br>
             <div class="column3"> 
-              <div ng-repeat="skill in skills">
+              <div ng-repeat="skill in skills" ng-if="$index > 0">
                   <h1 class="kopje">{{ skill.title }}</h1>
                   <h2 class="naam">{{ skill.name }}</h2>
-                  <p><strong>{{ skill.cat1 }}</strong> {{ skill.lvl1 }}</p>
-                  <p><strong>{{ skill.cat2 }}</strong> {{ skill.lvl2 }}</p>
-                  <p><strong>{{ skill.cat3 }}</strong> {{ skill.lvl3 }}</p>
-                  <p><strong>{{ skill.cat4 }}</strong> {{ skill.lvl4 }}</p>
-                  <p><strong>{{ skill.cat5 }}</strong> {{ skill.lvl5 }}</p>
+                  <p><strong>{{ skill.cat1 }}</strong>: {{ skill.lvl1 }}</p>
+                  <p><strong>{{ skill.cat2 }}</strong>: {{ skill.lvl2 }}</p>
+                  <p><strong>{{ skill.cat3 }}</strong>: {{ skill.lvl3 }}</p>
+                  <p><strong>{{ skill.cat4 }}</strong>: {{ skill.lvl4 }}</p>
+                  <p><strong>{{ skill.cat5 }}</strong>: {{ skill.lvl5 }}</p>
                   <br>
               </div>
               <br>
