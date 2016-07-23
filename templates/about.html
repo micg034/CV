@@ -4,36 +4,39 @@
     <div class="col-md-12">
       <h4 class="widget-title">Over mij</h4>
           <div class="project-item" ng-repeat="education in educations">
-            <h1 class="about">{{ education.title }}</h1>
-            <h2>{{ education.name }}</h2>
+            <h1 class="kopje">{{ education.title }}</h1>
+            <h2 class="naam">{{ education.name }}</h2>
             <p>{{ education.location }}</p>
             <p>{{ education.course }}</p>
             <p>{{ education.date }}</p>
             <p>{{ education.diploma }}</p>
+            <br>
           </div>
           <br>
           <div class="project-item" ng-repeat="course in courses">
-            <h1 class="about">{{ course.title }}</h1>  
-              <h2>{{ course.name }}</h2>
+            <h1 class="kopje">{{ course.title }}</h1>  
+              <h2 class="naam">{{ course.name }}</h2>
               <p>{{ course.location }}</p>
               <p>{{ course.date }}</p>
               <p>{{ course.course }}</p>
               <p>{{ course.level }}</p>
               <p>{{ course.diploma }}</p>
+              <br>
             </div>
           <br>
           <div class="project-item" ng-repeat="skill in skills">
-            <h1 class="about">{{ skill.title }}</h1>
-              <h2>{{ skill.name }}</h2>
+            <h1 class="kopje">{{ skill.title }}</h1>
+              <h2 class="naam">{{ skill.name }}</h2>
               <p>{{ skill.cat1 }}</p>
               <p>{{ skill.cat2 }}</p>
               <p>{{ skill.cat3 }}</p>
               <p>{{ skill.cat4 }}</p>
               <p>{{ skill.cat5 }}</p>
+              <br>
             </div>
           <br>
           <div class="project-item">
-            <h1 class="about">{{ interest.title }}</h1>
+            <h1 class="kopje">{{ interest.title }}</h1>
             <p>{{ interest.dog }}</p>
           </div>
         <hr>
