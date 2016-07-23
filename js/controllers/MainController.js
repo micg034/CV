@@ -3,9 +3,9 @@ app.controller('MainController', ['$scope', function($scope) {
   $scope.gegevens = {
       	icon: 'img/profile.jpg', 
 	    title: 'Persoonlijke Gegevens',
-	    name: 'Naam', 
+	    name: 'Michèle Go', 
 	    dateofbirth: new Date('1995', '09', '03'),
-	    nationality: 'NL',
+	    nationality: 'Nederlandse',
 	    adress: 'prive',
 	    email: 'mijn@mail.com',
 	    phone: '0612345678',
