@@ -466,11 +466,12 @@ h3.profile-title {
 	width: 33%;
 }
 .column2 {
+	float: left;
 	margin: 0;
 	width: 33%;
 }
 .column3 {
-	float: right;
+	float: left;
 	margin: 0;
 	width: 33%;
 }
