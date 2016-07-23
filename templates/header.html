@@ -1,26 +1,43 @@
-<div class="responsive-header visible-xs visible-sm" ng-controller="MainController">
-    <div class="container">
-     <div class="row">
-      <div class="col-md-12">
-       <div class="top-section">
-        <div class="profile-image">
-          <img src="{{ gegeven.icon }}" alt="Profielfoto">
+<div ng-controller="MainController">
+    <div class="responsive-header visible-xs visible-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="top-section">
+                        <div class="profile-image">
+                            <img src="{{ gegeven.icon }}" alt="Profielfoto">
+                        </div>
+                        <div class="profile-content">
+                            <h3 class="profile-title">Curriculum Vitae</h3>
+                            <p class="profile-description">Michèle Go</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="profile-content">
-              <h3 class="profile-title">Curriculum Vitae</h3>
-                <p class="profile-description">Michèle Go</p>
+            <a href="#" class="toggle-menu"><i class="fa fa-bars"></i></a>
+            <div class="main-navigation responsive-menu">
+                <ul class="navigation">
+                    <li><a href="#top"><i class="fa fa-home"></i>Home</a></li>
+                    <li><a href="#about"><i class="fa fa-user"></i>Over mij</a></li>
+                    <li><a href="#projects"><i class="fa fa-newspaper-o"></i>Werkervaring</a></li>
+                    <li><a href="#contact"><i class="fa fa-envelope"></i>Contact</a></li>
+                </ul>
             </div>
-          </div>
         </div>
-      </div>
-        <a href="#" class="toggle-menu"><i class="fa fa-bars"></i></a>
-          <div class="main-navigation responsive-menu">
-            <ul class="navigation">
-              <li><a href="#top"><i class="fa fa-home"></i>Home</a></li>
-              <li><a href="#about"><i class="fa fa-user"></i>Over mij</a></li>
-              <li><a href="#projects"><i class="fa fa-newspaper-o"></i>Werkervaring</a></li>
-              <li><a href="#contact"><i class="fa fa-envelope"></i>Contact</a></li>
-            </ul>
-          </div>
+    </div>
+
+  
+
+    <div class="banner-bg" id="top">
+        <div class="banner-overlay"></div>
+            <div class="welcome-text">
+                <h2>{{ gegevens.name }} | {{ gegevens.title }}</h2>
+                    <h5>Geboortedatum: {{ gegevens.dateofbirth | date }}</h5>
+                    <h5>Nationaliteit: {{ gegevens.nationality }}</h5>
+                    <h5>Adres: {{ gegevens.adress }}</h5>
+                    <h5>E-mail: {{ gegevens.email }}</h5>
+                    <h5>Telefoon: {{ gegevens.phone }}</h5>
+            </div>
+        </div>
     </div>
 </div>
