@@ -5,16 +5,17 @@
       <h4 class="widget-title">Over mij</h4>
         <h1 class="about">{{ gegevens.title }}</h1>
           <div class="project-item" ng-repeat="education in educations">
-            <p class="edu-name">{{ education.name }}</p>
-            <p class="edu-location">{{ education.location }}</p>
-            <p class="edu-course">{{ education.course }}</p>
-            <p class="edu-date">{{ education.date }}</p>
-            <p class="edu-diploma">{{ education.diploma }}</p>
+            <h2>{{ education.title }}</h2>
+            <p>{{ education.name }}</p>
+            <p>{{ education.location }}</p>
+            <p>{{ education.course }}</p>
+            <p>{{ education.date }}</p>
+            <p>{{ education.diploma }}</p>
           </div>
           <br>
-          <h1 class="about">{{ course.title }}</h1>
-            <div class="courses" ng-repeat="course in courses">
-              <h2>{{ course.name }}</h2>
+          <div class="project-item" ng-repeat="course in courses">
+            <h2>{{ course.title }}</h2>  
+              <h3>{{ course.name }}</h3>
               <p>{{ course.location }}</p>
               <p>{{ course.date }}</p>
               <p>{{ course.course }}</p>
@@ -22,9 +23,9 @@
               <p>{{ course.diploma }}</p>
             </div>
           <br>
-          <h1 class="about">{{ skill.title }}</h1>
-            <div class="skills" ng-repeat="skill in skills">
-              <h2>{{ skill.name }}</h2>
+          <div class="project-item" ng-repeat="skill in skills">
+            <h2>{{ skill.title }}</h2>
+              <h3>{{ skill.name }}</h3>
               <p>{{ skill.cat1 }}</p>
               <p>{{ skill.cat2 }}</p>
               <p>{{ skill.cat3 }}</p>
@@ -32,7 +33,7 @@
               <p>{{ skill.cat5 }}</p>
             </div>
           <br>
-            <h1 class="about">{{ interest.title }}</h1>
+            <h2 class="project-item">{{ interest.title }}</h2>
             <p>{{ interest.dog }}</p>
         <hr>
     </div>
