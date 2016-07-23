@@ -60,6 +60,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	 	{
 	 	name: 'Chinese School Kai Wah',
 	 	date: '2009 - 2011',
+	 	location: 'Amsterdam',
 	 	course: 'Mandarijn',
 	 	level: 'Beginner',
 	 	diploma: 'Nee',
@@ -67,6 +68,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	 	{
 	 	name: 'Chinese School Fa Yin',
 	 	date: '2000 - 2008',
+	 	location: 'Amsterdam',
 	 	course: 'Cantonees en Mandarijn',
 	 	level: 'Kleuterklas t/m groep 7',
 	 	diploma: 'Nee',
