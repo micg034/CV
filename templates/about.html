@@ -3,10 +3,9 @@
   <div class="row">
     <div class="col-md-12">
       <h4 class="widget-title">Over mij</h4>
-        <h1 class="about">{{ gegevens.title }}</h1>
           <div class="project-item" ng-repeat="education in educations">
-            <h2>{{ education.title }}</h2>
-            <h3>{{ education.name }}</h3>
+            <h1 class="about">{{ education.title }}</h1>
+            <h2>{{ education.name }}</h2>
             <p>{{ education.location }}</p>
             <p>{{ education.course }}</p>
             <p>{{ education.date }}</p>
@@ -14,8 +13,8 @@
           </div>
           <br>
           <div class="project-item" ng-repeat="course in courses">
-            <h2>{{ course.title }}</h2>  
-              <h3>{{ course.name }}</h3>
+            <h1 class="about">{{ course.title }}</h1>  
+              <h2>{{ course.name }}</h2>
               <p>{{ course.location }}</p>
               <p>{{ course.date }}</p>
               <p>{{ course.course }}</p>
@@ -24,8 +23,8 @@
             </div>
           <br>
           <div class="project-item" ng-repeat="skill in skills">
-            <h2>{{ skill.title }}</h2>
-              <h3>{{ skill.name }}</h3>
+            <h1 class="about">{{ skill.title }}</h1>
+              <h2>{{ skill.name }}</h2>
               <p>{{ skill.cat1 }}</p>
               <p>{{ skill.cat2 }}</p>
               <p>{{ skill.cat3 }}</p>
@@ -33,8 +32,10 @@
               <p>{{ skill.cat5 }}</p>
             </div>
           <br>
-            <h2 class="project-item">{{ interest.title }}</h2>
+          <div class="project-item">
+            <h1 class="about">{{ interest.title }}</h1>
             <p>{{ interest.dog }}</p>
+          </div>
         <hr>
     </div>
   </div> <!-- #about -->
