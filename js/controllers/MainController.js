@@ -32,6 +32,13 @@ app.controller('MainController', ['$scope', function($scope) {
 	    course: 'VWO Natuur en Gezondheid',
   	    date: '2008 - 2014',
   	    diploma: 'Ja',
+	    },
+	    {
+	    name: 'Jenaplanschool de Bijenkorf',
+	    location: 'Assendelft',
+	    course: 'Basisschool',
+	    date: '2000 - 2008',
+	    diploma: 'Ja',
 	    }
 	   ];
 	   
