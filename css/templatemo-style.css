@@ -483,7 +483,9 @@ h3.profile-title {
 .naam {
 	font-size: 16px;
 }
-
+.cat {
+	font-weight: bold;
+}
 
 /*------ about us ------ */
 .about-image {
