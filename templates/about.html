@@ -3,8 +3,8 @@
   <div class="row">
     <div class="col-md-12">
       <h4 class="widget-title">Over mij</h4>
-        <h2 class="about">{{ gegevens.title }}</h2>
-          <div class="education" ng-repeat="education in educations">
+        <h1 class="about">{{ gegevens.title }}</h1>
+          <div class="project-item" ng-repeat="education in educations">
             <p class="edu-name">{{ education.name }}</p>
             <p class="edu-location">{{ education.location }}</p>
             <p class="edu-course">{{ education.course }}</p>
@@ -12,28 +12,28 @@
             <p class="edu-diploma">{{ education.diploma }}</p>
           </div>
           <br>
-          <div class="courses" ng-repeat="course in courses">
-            <p class="course-name">{{ course.name }}</p>
-            <p>{{ course.location }}</p>
-            <p>{{ course.date }}</p>
-            <p>{{ course.course }}</p>
-            <p>{{ course.level }}</p>
-            <p>{{ course.diploma }}</p>
-          </div>
+          <h1 class="about">{{ course.title }}</h1>
+            <div class="courses" ng-repeat="course in courses">
+              <h2>{{ course.name }}</h2>
+              <p>{{ course.location }}</p>
+              <p>{{ course.date }}</p>
+              <p>{{ course.course }}</p>
+              <p>{{ course.level }}</p>
+              <p>{{ course.diploma }}</p>
+            </div>
           <br>
-          <div class="skills" ng-repeat="skill in skills">
-            <p class="skill-name">{{ skill.name }}</p>
-            <p>{{ skill.cat1 }}</p>
-            <p>{{ skill.cat2 }}</p>
-            <p>{{ skill.cat3 }}</p>
-            <p>{{ skill.cat4 }}</p>
-            <p>{{ skill.cat5 }}</p>
-          </div>
+          <h1 class="about">{{ skill.title }}</h1>
+            <div class="skills" ng-repeat="skill in skills">
+              <h2>{{ skill.name }}</h2>
+              <p>{{ skill.cat1 }}</p>
+              <p>{{ skill.cat2 }}</p>
+              <p>{{ skill.cat3 }}</p>
+              <p>{{ skill.cat4 }}</p>
+              <p>{{ skill.cat5 }}</p>
+            </div>
           <br>
-          <div class="interests">
-            <p class="interest-name">{{ interest.name }}</p>
+            <h1 class="about">{{ interest.title }}</h1>
             <p>{{ interest.dog }}</p>
-          </div>
         <hr>
     </div>
   </div> <!-- #about -->
