@@ -466,12 +466,11 @@ h3.profile-title {
 	width: 33%;
 }
 .column2 {
-	float: left;
 	margin: 0;
 	width: 33%;
 }
 .column3 {
-	float: left;
+	float: right;
 	margin: 0;
 	width: 33%;
 }
@@ -483,7 +482,11 @@ h3.profile-title {
 .naam {
 	font-size: 16px;
 }
-.cat {
+.cat p, p {
+	display: inline;
+	vertical-align: top;
+}
+.cat p {
 	font-weight: bold;
 }
 
