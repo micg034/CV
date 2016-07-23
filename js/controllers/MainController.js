@@ -13,9 +13,6 @@ app.controller('MainController', ['$scope', function($scope) {
 	    
 	 $scope.educations = [
 	    {
-	    title: 'Opleidingen',
-	    },
-	    {
   	    name: 'Vrije Universiteit',
   	    location: 'Amsterdam',
   	    course: 'Lifestyle Informatics',
@@ -39,9 +36,6 @@ app.controller('MainController', ['$scope', function($scope) {
 	   ];
 	   
 	 $scope.courses = [
-	 	{
-	 	title: 'Cursussen',
-	 	},
 	 	{
 	 	name: 'Chinese School Fa Yin',
 	 	date: '2013 - 2015',
@@ -78,9 +72,6 @@ app.controller('MainController', ['$scope', function($scope) {
 	 	
 	 $scope.experiences = [
 	 	{
-	 	title: 'Werkervaring',
-	 	},
-	 	{
 	 	functie: 'Flexkracht via Uitzendbureau BQ',
 	 	date: 'Sep 2015 - heden',
 	 	location: 'Horeca: Amsterdam RAI Convention Centre. Promotiewerk: verschillend',
@@ -107,9 +98,6 @@ app.controller('MainController', ['$scope', function($scope) {
 	 	];
 	 	
 	 $scope.skills = [
-	 	{
-	 	title: 'Vaardigheden',
-	 	},
 	 	{
 	 	name: 'Taalvaardigheid',
 	 	cat1: 'Nederlands:',
