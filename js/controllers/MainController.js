@@ -12,6 +12,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	    };
 	    
 	 $scope.educations = [
+	    title: 'Opleidingen',
 	    {
   	    name: 'Vrije Universiteit',
   	    location: 'Amsterdam',
@@ -35,6 +36,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	   ];
 	   
 	 $scope.courses = [
+	 	title: 'Cursussen',
 	 	{
 	 	name: 'Chinese School Fa Yin',
 	 	date: '2013 - 2015',
@@ -68,6 +70,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	 	];
 	 	
 	 $scope.experiences = [
+	 	title: 'Werkervaring',
 	 	{
 	 	functie: 'Flexkracht via Uitzendbureau BQ',
 	 	date: 'Sep 2015 - heden',
@@ -95,6 +98,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	 	];
 	 	
 	 $scope.skills = [
+	 	title: 'Vaardigheden',
 	 	{
 	 	name: 'Taalvaardigheid',
 	 	cat1: 'Nederlands: vloeiend in spreken, lezen en schrijven.',
@@ -117,7 +121,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	 	}
 	 	];
 	 $scope.interests = {
-	 	name: 'Hobbies en Interesses',
+	 	title: 'Hobbies en Interesses',
 	 	dog: 'Lezen, reizen, piano, badminton.',
 	 };
 }]);
