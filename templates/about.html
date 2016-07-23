@@ -29,7 +29,7 @@
             </div>
             <div class="col-md-4 col-sm-6"> 
               <h1 class="kopje">Vaardigheden</h1>
-                <div ng-repeat="skill in skills" ng-if="$index > 0" ng-hide="skill.length">
+                <div ng-repeat="skill in skills" ng-if="$index > 0" ng-repeat-end ng-if="skill.length === 0">
                   <h2 class="naam">{{ skill.name }}</h2>
                   <p><strong>{{ skill.cat1 }}</strong>: {{ skill.lvl1 }}</p>
                   <p><strong>{{ skill.cat2 }}</strong>: {{ skill.lvl2 }}</p>
