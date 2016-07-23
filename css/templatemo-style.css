@@ -479,10 +479,13 @@ h3.profile-title {
 	font-size: 20px;
 	font-weight: bold;
 }
+.naam h2, .plek p {
+	display: inline;
+}
 .naam {
 	font-size: 16px;
 }
-.cat p, p {
+.cat p, .lvl p {
 	display: inline;
 }
 .cat p {
