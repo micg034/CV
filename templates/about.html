@@ -6,7 +6,8 @@
         <div id="contentbox">
           <div class="col-md-4 col-sm-6">
             <h1 class="kopje"><strong>Opleidingen</strong></h1>
-            <div ng-repeat="education in educations" ng-if="$index > 0">
+            <br>
+            <div ng-repeat="education in educations">
               <p class="naam">{{ education.name }}</p> 
               <p>te {{ education.location }}</p>
               <p><strong>Cursus:</strong> {{ education.course }}</p>
@@ -17,7 +18,8 @@
           </div>
           <div class="col-md-4 col-sm-6">
             <h1 class="kopje">Cursussen</h1>
-              <div ng-repeat="course in courses" ng-if="$index > 0">
+            <br>
+              <div ng-repeat="course in courses">
                 <p class="naam"><strong>{{ course.name }}</strong></p> 
                 <p>te {{ course.location }}</p>
                 <p><strong>Periode:</strong> {{ course.date }}</p>
@@ -29,7 +31,8 @@
             </div>
             <div class="col-md-4 col-sm-6"> 
               <h1 class="kopje">Vaardigheden</h1>
-                <div ng-repeat="skill in skills" ng-if="$index > 0" ng-repeat-end ng-if="skill.length === 0">
+              <br>
+                <div ng-repeat="skill in skills" ng-repeat-end ng-if="skill.length === 0">
                   <h2 class="naam">{{ skill.name }}</h2>
                   <p><strong>{{ skill.cat1 }}</strong>: {{ skill.lvl1 }}</p>
                   <p><strong>{{ skill.cat2 }}</strong>: {{ skill.lvl2 }}</p>
@@ -39,8 +42,7 @@
                   <br>
                 </div>
               <br>
-              <h1 class="kopje">Hobbies en Interesses</h1>
-              <div ng-repeat="interest in interests">
+              <h1 class="kopje">{{ interest.title }}</h1>
                 <p>{{ interest.dog }}</p>
               </div>
             </div>
