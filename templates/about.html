@@ -8,7 +8,7 @@
             <h1 class="kopje"><strong>Opleidingen</strong></h1>
             <br>
             <div ng-repeat="education in educations">
-              <p class="naam">{{ education.name }}</p> 
+              <p class="naam"><strong>{{ education.name }}</strong></p> 
               <p>te {{ education.location }}</p>
               <p><strong>Cursus:</strong> {{ education.course }}</p>
               <p><strong>Periode:</strong> {{ education.date }}</p>
@@ -33,7 +33,7 @@
               <h1 class="kopje">Vaardigheden</h1>
               <br>
                 <div ng-repeat="skill in skills">
-                  <h2 class="naam">{{ skill.name }}</h2>
+                  <h2 class="naam"><strong>{{ skill.name }}</strong></h2>
                   <p><strong>{{ skill.cat1 }}</strong>: {{ skill.lvl1 }}</p>
                   <p><strong>{{ skill.cat2 }}</strong>: {{ skill.lvl2 }}</p>
                   <p><strong>{{ skill.cat3 }}</strong>: {{ skill.lvl3 }}</p>
