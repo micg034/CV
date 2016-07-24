@@ -455,14 +455,12 @@ h3.profile-title {
   color: white;
 }
 
-.gegevens th {
+.gegevens th, td {
 	color: white;
-	font-weight: bold;
 	font-size: 20px;
 }
-.gegevens td {
-	color: white;
-	font-size: 18px;
+.gegevens th {
+	font-weight: bold;
 }
 
 .contentbox {
