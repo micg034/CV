@@ -35,18 +35,22 @@
       <div class="banner-overlay"></div>
           <div class="welcome-text">
               <h2>{{ gegevens.name }} | {{ gegevens.title }}</h2>
-                <tr>
-                  <th>Geboortedatum:</th>
-                  <td>{{ gegevens.dateofbirth | date }}</td>
-                  <th>Nationaliteit:</th> 
-                  <td>{{ gegevens.nationality }}</td>
-                  <th>Adres:</th> 
-                  <td>{{ gegevens.adress }}</td>
-                  <th>E-mail:</th> 
-                  <td>{{ gegevens.email }}</td>
-                  <th>Telefoon:</th> 
-                  <td>{{ gegevens.phone }}</td>
-                </tr>
+                <table class="gegevens">
+                  <tr>
+                    <th>Geboortedatum:</th>
+                    <th>Nationaliteit:</th>
+                    <th>Adres:</th> 
+                    <th>E-mail:</th>
+                    <th>Telefoon:</th>
+                  </tr>
+                  <tr>
+                    <td>{{ gegevens.dateofbirth | date }}</td>
+                    <td>{{ gegevens.nationality }}</td>
+                    <td>{{ gegevens.adress }}</td>
+                    <td>{{ gegevens.email }}</td>
+                    <td>{{ gegevens.phone }}</td>
+                  </tr>
+                </table>
           </div>
       </div>
   </div>
