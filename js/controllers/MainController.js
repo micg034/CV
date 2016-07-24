@@ -131,11 +131,11 @@ app.controller('MainController', ['$scope', function($scope) {
 	 	cat5: 'Matlab:',
 	 	lvl5: 'basis',
 	 	},
-	 	{
-	 	name: 'Rijbewijs:',
-	 	cat1: 'AM + B (sinds 2015)',
-	 	}
 	 	];
+	 $scope.rijbewijs = {
+	 	name: 'Rijbewijs',
+	 	cat1: 'AM + B (sinds 2015)',
+	 	};
 	 $scope.interests = {
 	 	title: 'Hobbies en Interesses',
 	 	dog: 'Lezen, reizen, piano, badminton.',
