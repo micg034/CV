@@ -6,7 +6,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	    name: 'Michèle Go', 
 	    dateofbirth: new Date('1995', '09', '03'),
 	    nationality: 'Nederlandse',
-	    adress: 'prive',
+	    adress: 'Prive Adres 88',
 	    email: 'mijn@mail.com',
 	    phone: '0612345678',
 	    };
