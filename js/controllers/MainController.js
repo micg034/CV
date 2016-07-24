@@ -81,26 +81,26 @@ app.controller('MainController', ['$scope', function($scope) {
 	 	{
 	 	functie: 'Flexkracht via Uitzendbureau BQ',
 	 	date: 'Sep 2015 - heden',
-	 	location: 'Horeca: Amsterdam RAI Convention Centre. Promotiewerk: verschillend',
+	 	location: 'Horeca: Amsterdam RAI Convention Centre. Promotiewerk: verschillend.',
 	 	taken: 'Horecamedewerkster: bedienen, foodlopen, debrasseren, achter de bar staan, schoonmaken, op- en afbouwen. Promotiewerker: flyeren.',
 	 	},
 	 	{
 	 	functie: 'Horecamedewerkster',
 	 	date: 'Feb 2014 - Mrt 2015',
 	 	location: 'Snackbar Bengs Snacks in Krommenie',
-	 	taken: 'Bestellingen opnemen, bedienen, milkshakes maken, schoonmaken',
+	 	taken: 'Bestellingen opnemen, bedienen, milkshakes maken, schoonmaken.',
 	 	},
 	 	{
 	 	functie: 'Vrijwilligster',
 	 	date: 'Okt 2011 - Dec 2011',
 	 	location: 'Molenmuseum in Koog aan de Zaan',
-	 	taken: 'Gasten verwelkomen, koffie zetten en verkopen, kaartjes controleren, folders bijvullen', 
+	 	taken: 'Gasten verwelkomen, koffie zetten en verkopen, kaartjes controleren, folders bijvullen.', 
 	 	},
 	 	{
 	 	functie: 'Vrijwilligster',
 	 	date: 'Okt 2011 - Nov 2011',
 	 	location: 'SCWO in Wormer',
-	 	taken: 'Voorbereidingswerk, kinderen begeleiden, opruimen',
+	 	taken: 'Voorbereidingswerk, kinderen begeleiden, opruimen.',
 	 	}
 	 	];
 	 	
@@ -139,5 +139,5 @@ app.controller('MainController', ['$scope', function($scope) {
 	 $scope.interests = {
 	 	title: 'Hobbies en Interesses',
 	 	dog: 'Lezen, reizen, piano, badminton.',
-	 };
+	 	};
 }]);
