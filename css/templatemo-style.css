@@ -458,6 +458,7 @@ h3.profile-title {
 .gegevens th, td {
 	color: white;
 	font-size: 20px;
+	padding: 15px;
 }
 .gegevens th {
 	font-weight: bold;
