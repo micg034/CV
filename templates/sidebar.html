@@ -38,16 +38,20 @@
                 <table class="gegevens">
                   <tr>
                     <th>Geboortedatum:</th>
-                    <th>Nationaliteit:</th>
-                    <th>Adres:</th> 
-                    <th>E-mail:</th>
-                    <th>Telefoon:</th>
+                    <td>{{ gegevens.dateofbirth | date }}</td>
                   </tr>
                   <tr>
-                    <td>{{ gegevens.dateofbirth | date }}</td>
+                    <th>Nationaliteit:</th>
                     <td>{{ gegevens.nationality }}</td>
+                  </tr>
+                  <tr>
+                    <th>Adres:</th>
                     <td>{{ gegevens.adress }}</td>
+                  </tr>
+                    <th>E-mail:</th>
                     <td>{{ gegevens.email }}</td>
+                  <tr>
+                    <th>Telefoon:</th>
                     <td>{{ gegevens.phone }}</td>
                   </tr>
                 </table>
