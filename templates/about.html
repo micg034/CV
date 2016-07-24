@@ -28,11 +28,11 @@
                 <p><strong>Diploma:</strong> {{ course.diploma }}</p>
                 <br>
               </div>
-            </div>
-            <div class="col-md-4 col-sm-6"> 
-              <h1 class="kopje">Vaardigheden</h1>
-              <br>
-                <div ng-repeat="skill in skills">
+          </div>
+          <div class="col-md-4 col-sm-6"> 
+            <h1 class="kopje">Vaardigheden</h1>
+            <br>
+              <div ng-repeat="skill in skills">
                   <h2 class="naam"><strong>{{ skill.name }}</strong></h2>
                   <p><strong>{{ skill.cat1 }}</strong>: {{ skill.lvl1 }}</p>
                   <p><strong>{{ skill.cat2 }}</strong>: {{ skill.lvl2 }}</p>
@@ -40,18 +40,17 @@
                   <p><strong>{{ skill.cat4 }}</strong>: {{ skill.lvl4 }}</p>
                   <p><strong>{{ skill.cat5 }}</strong>: {{ skill.lvl5 }}</p>
                   <br>
-                </div>
+              </div>
               <br>
               <h1 class="kopje">{{ rijbewijs.name }}</h1>
                 <p>{{ rijbewijs.cat1 }}</p>
               <br>
-              <h1 class="kopje">Hobbies en Interesses</h1>
-                <p>{{ interest.dog }}</p>
-              </div>
-            </div>
+              <h1 class="kopje">{{ interests.title }}</h1>
+                <p>{{ interests.dog }}</p>
           </div>
         </div>
-        <hr>
     </div>
-  </div> <!-- #about -->
-</div>
+    <hr>
+  </div>
+</div> <!-- #about -->
+
